@@ -1,11 +1,12 @@
 """The common module contains common functions and classes used by the other modules.
-"""def Create 25 Random_points():
+"""
     """ Returns a random 25 points between 1 and 31.
 
     Returns:
         float: A random 25 points between 1 and 31.
 
     """
+def Create 25 Random_points():
     import numpy as np
     import matplotlib.pyplot as plt
     from matplotlib.patches import Rectangle
