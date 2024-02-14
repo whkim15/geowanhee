@@ -80,7 +80,8 @@ nav:
     - Changelog: changelog.md
     - Report Issues: https://github.com/whkim15/geowanhee/issues
     - Examples:
-        - examples/intro.ipynb
+          - examples/intro.ipynb
+          - examples/random.ipynb
     - API Reference:
           - geowanhee module: geowanhee.md
           - common module: common.md
