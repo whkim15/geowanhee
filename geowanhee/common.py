@@ -29,6 +29,9 @@ def create_25_random_points():
 
         if is_far_enough(new_point, unique_points):
             unique_points.add(new_point)
+    
+    unique_points_list = list(unique_points)
+
     # print
     points = unique_points_list
     print(points)
