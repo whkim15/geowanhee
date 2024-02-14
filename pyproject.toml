@@ -4,7 +4,7 @@ version = "0.0.1"
 dynamic = [
     "dependencies",
 ]
-description = "a python packes for wanhee's geo510"
+description = "a python package for wanhee's geo510"
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = [
