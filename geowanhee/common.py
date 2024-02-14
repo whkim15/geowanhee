@@ -1,25 +1,11 @@
 """The common module contains common functions and classes used by the other modules.
 """
 
-def hello_world():
-    """Prints "Hello World!" to the console.
-    """
-    print("Hello World!")
-
-
-def get_version():
-    """Returns the version of the geowanhee package.
-
-    Returns:
-        str: The version of the geowanhee package.
-    """
-    return "0.0.1"
-
-def random_number():
+def Create 25 Random_points():
     """ Returns a random 25 points between 1 and 31.
 
     Returns:
-        float: A random 25 points between 1 and 31.
+        List: 25 Random(Integer) points between 1 and 31.
 
     """
     import numpy as np
@@ -47,3 +33,19 @@ def random_number():
     # print
     points = unique_points_list
     print(points)
+
+
+def hello_world():
+    """Prints "Hello World!" to the console.
+    """
+    print("Hello World!")
+
+
+def get_version():
+    """Returns the version of the geowanhee package.
+
+    Returns:
+        str: The version of the geowanhee package.
+    """
+    return "0.0.1"
+
