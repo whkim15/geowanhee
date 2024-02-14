@@ -1,16 +1,15 @@
 """The common module contains common functions and classes used by the other modules.
 """
 
+import numpy as np
+
 def Create_25_Random_points():
     """ Returns a random 25 points between 1 and 31.
 
     Returns:
-        List: 25 Random(Integer) points between 1 and 31.
+        list: 25 Random(Integer) points between 1 and 31.
 
     """
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from matplotlib.patches import Rectangle
 
     # Each points are far from >3
     def is_far_enough(new_point, existing_points, min_distance=3):
@@ -33,7 +32,7 @@ def Create_25_Random_points():
     # print
     points = unique_points_list
     print(points)
-
+    return points
 
 def hello_world():
     """Prints "Hello World!" to the console.
