@@ -1,38 +1,5 @@
 """The common module contains common functions and classes used by the other modules.
 """
-    """ Returns a random 25 points between 1 and 31.
-
-    Returns:
-        float: A random 25 points between 1 and 31.
-
-    """
-def Create 25 Random_points():
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from matplotlib.patches import Rectangle
-
-    # Each points are far from >3
-    def is_far_enough(new_point, existing_points, min_distance=3):
-        for point in existing_points:
-            if np.sqrt((new_point[0] - point[0])**2 + (new_point[1] - point[1])**2) < min_distance:
-                return False
-        return True
-
-    np.random.seed(0) 
-    num_points = 25
-    unique_points = set()
-
-    while len(unique_points) < num_points:
-        x = np.random.randint(1, 31)
-        y = np.random.randint(1, 31)
-        new_point = (x, y)
-
-        if is_far_enough(new_point, unique_points):
-            unique_points.add(new_point)
-    # print
-    points = unique_points_list
-    print(points)
-
 
 def Create 25 Random_points():
     """ Returns a random 25 points between 1 and 31.
