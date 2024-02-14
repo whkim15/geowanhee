@@ -3,7 +3,7 @@
 
 import numpy as np
 
-def Create_25_Random_points():
+def create_25_random_points():
     """ Returns a random 25 points between 1 and 31.
 
     Returns:
